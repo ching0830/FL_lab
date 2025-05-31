@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
+env/
 build/
 develop-eggs/
 dist/
@@ -20,9 +21,8 @@ wheels/
 .installed.cfg
 *.egg
 
-# 虛擬環境
+# Virtual Environment
 venv/
-env/
 ENV/
 
 # IDE
@@ -31,21 +31,19 @@ ENV/
 *.swp
 *.swo
 
-# 數據集和模型
-data/
-*.pth
-*.pt
-*.ckpt
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data and Results
+*.pkl
 *.h5
-*.hdf5
-
-# 日誌和結果
-logs/
-results/
+*.pt
+*.pth
+*.ckpt
 *.log
-*.csv
-*.json
+results/
+data/
 
-# 系統文件
+# OS
 .DS_Store
 Thumbs.db 
